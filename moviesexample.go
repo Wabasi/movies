@@ -9,6 +9,13 @@ import (
 
 	"github.com/gorilla/mux"
 )
+
+/**
+ * @api {get} /hi Request User information
+ * @apiName Get
+ *
+ */
+
 var movies = dao.MoviesDAO{}
 
 func AllMoviesEndPoint(w http.ResponseWriter, r *http.Request) {
